@@ -1,5 +1,5 @@
 # Manifesto
-## This document should describe the general idea and technologies involved in this project(Mostly for development/notes purpouses)
+**This document should describe the general idea and technologies involved in this project(Mostly for development/notes purpouses)**
 
 ### Technologies used
 The general communication between modules like bot -> main should be socket based as standard.
@@ -14,7 +14,7 @@ I'm thinking that bots should be completely independant and that they should be 
 
 
 ### Communication protocoll
-#####Note that this is just a generall idea not the actual protocoll.. Geesh, i'll get there one day.. probably... maybe...
+##### Note that this is just a generall idea not the actual protocoll.. Geesh, i'll get there one day.. probably... maybe...
 First off, all messages should be in json, since json is awesome and everyone who dissagrees is an ignorant jerk...
 
 #### Sending a message from frontend to client
