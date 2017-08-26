@@ -1,0 +1,30 @@
+name: hangups
+version: 0
+version-script: git describe --dirty | cut -c 2-
+summary: Third-party instant messaging client for Google Hangouts
+description: |
+  hangups is a third-party instant messaging client for Google Hangouts with a
+  text-based user interface.
+confinement: strict
+grade: stable
+
+apps:
+  hangups:
+    command: bin/hangups
+    # hangups is not a server, but the requests library seems to require the
+    # bind syscall
+    plugs:
+        - network
+        - network-bind
+
+parts:
+  hangups:
+    plugin: python
+    source: .
+    # reduce the size of the snap package by only including the files needed to
+    # run hangups
+    prime:
+        - bin/hangups # hangups binary
+        - usr/bin # python binaries
+        - usr/lib/python3.5 # standard library
+        - lib/python3.5/site-packages # python packages
