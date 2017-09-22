@@ -1,0 +1,11 @@
+{
+    "mqtt" : {
+        "bot_topic" : "/discord/",
+        "client_id" : "botty",
+        "broker" : "my.broker.com",
+        "user" : "hero",
+        "password" : "test",
+        "port" : 1883
+    },
+    "communication_delay" : 1000
+}
