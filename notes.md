@@ -8,3 +8,8 @@
 
 **Skype bots**
 * Skype bot in nodejs: https://github.com/Microsoft/BotBuilder https://github.com/Microsoft/BotBuilder/tree/master/Node/examples/demo-skype 
+
+
+**Discord bots**
+* https://discordapp.com/developers/docs/topics/oauth2 self-bots is the term used for bots without specific bot-account
+* https://github.com/appu1232/Discord-Selfbot self-bot example
