@@ -9,6 +9,7 @@
 
 **Skype bots**
 * Skype bot in nodejs: https://github.com/Microsoft/BotBuilder https://github.com/Microsoft/BotBuilder/tree/master/Node/examples/demo-skype 
+* Skype bot framework in python without botbuilder: https://github.com/OllieTerrance/SkPy
 
 
 **Discord bots**
